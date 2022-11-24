@@ -1,0 +1,39 @@
+{
+    "name": "Appocean/payment",
+    "description": "",
+    "authors": [
+        {
+            "name": "Akin Gundogdu",
+            "email": "akin-gundogdu@hotmail.com"
+        }
+    ],
+     "repositories": [
+        {
+            "type": "composer",
+            "url": "https://morpheus.Appocean.codes"
+        }
+    ],
+     "require": {
+        "php": "^7.4",
+        "Appocean/core": "dev-master",
+        "rinvex/laravel-subscriptions": "^4.1",
+        "iyzico/iyzipay-php": "^2.0",
+        "spatie/nova-translatable": "^3.0"
+     },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Appocean\\Payment\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "message": "hello i18n !!",
+  "validation_message": "Alanını boş bırakamazsınız.",
+  "security_breach_title" : "Güvenlik ihlali!",
+  "security_breach_message": "Lütfen bu ekranı kapatın ve daha sonra deneyin.",
+  "payment_success_message": "Ödemeniz alındı ve aboneliğiniz oluşturuldu. Bu ekranı kapatabilirsiniz.",
+  "payment_success_title" : "Tebrikler!",
+  "card": {
+    "cardHolder": "Kart Sahibi",
+    "fullName": "Ad Soyad",
+    "expires": "Son Kullanma",
+    "MM": "AA",
+    "YY": "YY"
+  },
+  "cardForm": {
+    "cardNumber": "Kart Numarası",
+    "cardName": "Kart Üzerindeki İsim",
+    "expirationDate": "Son Kullanma Tarihi",
+    "month": "Ay",
+    "year": "Yıl",
+    "CVV": "CVV",
+    "submit": "Öde",
+    "invalidCardNumber": "Geçersiz Kart Numarası"
+  }
+}
